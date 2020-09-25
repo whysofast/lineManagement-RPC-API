@@ -11,32 +11,32 @@
     
 - `/addToLine`
     - POST
-    - body ```{ "id": 6089141 }```
+    - body: ```{ "id": 6089141 }```
 
 - `/showLine`
     - GET
-    - ```{}```
+    - body: ```{}```
 
 - `/popLine`
     - GET
-    - ```{}```
+    - body: ```{}```
 
 - `/filterLine`
     - POST
-    - ```{ "gender": "masculino" }```
+    - body: ```{ "gender": "masculino" }```
 
 - `/findPosition`
     - POST
-    - ```{ "email": "matheus.carvalho@outlook.com" }```
+    - body: ```{ "email": "matheus.carvalho@outlook.com" }```
     
 ### Endpoints adicionais 
 
 - `/showUsers`
   - GET
-  - ```{}```
+  - body: ```{}```
 
 - `/docs`
   - GET
-  - ```{}```
+  - body: ```{}```
 
 
