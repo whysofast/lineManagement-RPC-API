@@ -11,9 +11,9 @@
     - Body : 
         ```json
         {
-        "name": "John Doe",
-        "email": "john@doe.com",
-        "gender": "undefined"
+            "name": "John Doe",
+            "email": "john@doe.com",
+            "gender": "undefined"
         }
         ```
 
@@ -23,7 +23,7 @@
     - Body :     
         ```json
         {
-        "id": 6089141
+            "id": 6089141
         }
         ```
 
@@ -44,7 +44,7 @@
     - Body : 
         ```json
         {
-        "gender": "masculino"
+            "gender": "masculino"
         }
         ```
 
@@ -54,7 +54,7 @@
     - Body : 
         ```json
         {
-        "email": "matheus.carvalho@outlook.com"
+            "email": "matheus.carvalho@outlook.com"
         }
         ```
     
