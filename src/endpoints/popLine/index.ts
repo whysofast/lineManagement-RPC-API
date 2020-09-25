@@ -12,9 +12,12 @@ export const popLine: RouteContent = {
     method: 'GET',
     handler: (args: any, { LINE }) => {
         const firstUser = LINE[0];
-        LINE.shift();
-        fs.writeFileSync('./src/data/line.json', JSON.stringify(LINE));
-
-        return firstUser;
+        if (LINE.length === 0) {
+            return 'A fila está vazia.';
+        } else {
+            LINE.shift();
+            fs.writeFileSync('./src/data/line.json', JSON.stringify(LINE));
+            return firstUser;
+        }
     },
 };
