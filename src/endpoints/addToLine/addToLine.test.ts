@@ -24,7 +24,7 @@ const context: Context = {
     ],
 };
 
-describe('No endpoint createUser', () => {
+describe('No endpoint addToLine', () => {
     // funcionar
     test('Adicionar um usuário existente à fila', () => {
         const retorno = addToLine.handler(
