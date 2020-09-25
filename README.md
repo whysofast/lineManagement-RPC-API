@@ -6,55 +6,67 @@
 
 ### Endpoints obrigatórios
 - `/createUser`
-    - POST
-    ```json
-    {
-    "name": "John Doe",
-    "email": "john@doe.com",
-    "gender": "undefined"
-    }
-    ```
-    
+    - Cadastra usuário;
+    - Metódo HTTP : POST
+    - Body : 
+        ```json
+        {
+        "name": "John Doe",
+        "email": "john@doe.com",
+        "gender": "undefined"
+        }
+        ```
 
-    
 - `/addToLine`
-    - POST
-    ```json
-    {
-    "id": 6089141
-    }
-    ```
+    - Coloca um usuário na última posição da fila;
+    - Metódo HTTP : POST
+    - Body :     
+        ```json
+        {
+        "id": 6089141
+        }
+        ```
 
 - `/showLine`
-    - GET
+    - Lista os usuários da fila e suas respectivas posições;
+    - Metódo HTTP : GET
+    - Body : `{}`
 
 - `/popLine`
-    - GET
+    - Tira a pessoa na primeira posição da fila;
+    - Metódo HTTP : GET
+    - Body : `{}`
 
 
 - `/filterLine`
-    - POST
-    ```json
-    {
-    "gender": "masculino"
-    }
-    ```
+    - Lista os usuários filtrados a partir de um parâmetro;
+    - Metódo HTTP : POST
+    - Body : 
+        ```json
+        {
+        "gender": "masculino"
+        }
+        ```
 
 - `/findPosition`
-    - POST
-    ```json
-    {
-    "email": "matheus.carvalho@outlook.com"
-    }
-    ```
+    - Retorna a posição de um usuário a partir de seu email;
+    - Metódo HTTP : POST
+    - Body : 
+        ```json
+        {
+        "email": "matheus.carvalho@outlook.com"
+        }
+        ```
     
     
 ### Endpoints adicionais 
 
 - `/showUsers`
-  - GET
+  - Metódo HTTP : GET
+  - Body : `{}`
 
 - `/docs`
-  - GET
+  - Metódo HTTP : GET
+  - Body : `{}`
 
 
