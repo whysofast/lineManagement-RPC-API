@@ -8,7 +8,7 @@ Dentro do diretório do projeto:
 
 ### `npm run build`
 
-Roda o "tsc" em modo de observação -> "tsc -w".
+Roda o "tsc" em modo de observação -> "tsc -w".\
 Transpila o código em Typescript para Javascript
 
 ### `npm run start`
@@ -16,7 +16,7 @@ Transpila o código em Typescript para Javascript
 Inicia o app no modo desenvolvedor -> "nodemon ./dist/index.js".
 
 ### `npm run test`
-Roda a rotina de testes unitário, acessando os arquivos dentro de cada pasta dos endpoints -> "jest".\
+Roda a rotina de testes unitário, acessando os arquivos dentro de cada pasta dos endpoints -> "jest".
 
 
 ## Endpoints obrigatórios
