@@ -6,6 +6,27 @@
 
 Dentro do diretório do projeto:
 
+### `npm install`
+Instala dependências necessárias:
+```json
+{
+    "devDependencies": {
+        "@types/express": "^4.17.8",
+        "@types/faker": "^5.1.2",
+        "@types/jest": "^26.0.14",
+        "faker": "^5.1.0",
+        "jest": "^26.4.2",
+        "nodemon": "^2.0.4",
+        "ts-jest": "^26.4.0",
+        "typescript": "^4.0.3"
+    },
+    "dependencies": {
+        "express": "^4.17.1",
+        "lodash": "^4.17.20"
+    }
+}
+```
+
 ### `npm run build`
 
 Roda o "tsc" em modo de observação -> "tsc -w".\
