@@ -35,7 +35,7 @@ Transpila o código em Typescript para Javascript
 Inicia o app no modo desenvolvedor -> "nodemon ./dist/index.js".
 
 ### `npm run test`
-Roda a rotina de testes unitário, acessando os arquivos dentro de cada pasta dos endpoints -> "jest".
+Roda a rotina de teste unitário, acessando os arquivos dentro de cada pasta dos endpoints -> "jest".
 
 
 ## Endpoints obrigatórios
