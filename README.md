@@ -7,36 +7,54 @@
 ### Endpoints obrigatórios
 - `/createUser`
     - POST
-    - body: ```{ "name": "John Doe", "email": "john@doe.com", "gender": "undefined"}```
+    ```json
+    {
+    "name": "John Doe",
+    "email": "john@doe.com",
+    "gender": "undefined"
+    }
+    ```
+    
+
     
 - `/addToLine`
     - POST
-    - body: ```{ "id": 6089141 }```
+    ```json
+    {
+    "id": 6089141
+    }
+    ```
 
 - `/showLine`
     - GET
-    - body: ```{}```
 
 - `/popLine`
     - GET
-    - body: ```{}```
+
 
 - `/filterLine`
     - POST
-    - body: ```{ "gender": "masculino" }```
+    ```json
+    {
+    "gender": "masculino"
+    }
+    ```
 
 - `/findPosition`
     - POST
-    - body: ```{ "email": "matheus.carvalho@outlook.com" }```
+    ```json
+    {
+    "email": "matheus.carvalho@outlook.com"
+    }
+    ```
+    
     
 ### Endpoints adicionais 
 
 - `/showUsers`
   - GET
-  - body: ```{}```
 
 - `/docs`
   - GET
-  - body: ```{}```
 
 
