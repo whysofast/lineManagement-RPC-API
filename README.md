@@ -6,7 +6,7 @@
 
 ### Endpoints obrigatórios
 - `/createUser`
-    - Cadastra usuário;
+    - Descrição : Cadastra usuário;
     - Metódo HTTP : ``POST``
     - Body : 
         ```json
@@ -18,7 +18,7 @@
         ```
 
 - `/addToLine`
-    - Coloca um usuário na última posição da fila;
+    - Descrição : Coloca um usuário na última posição da fila;
     - Metódo HTTP : `POST`
     - Body :     
         ```json
@@ -28,18 +28,18 @@
         ```
 
 - `/showLine`
-    - Lista os usuários da fila e suas respectivas posições;
+    - Descrição : Lista os usuários da fila e suas respectivas posições;
     - Metódo HTTP : `GET`
     - Body : `{}`
 
 - `/popLine`
-    - Tira a pessoa na primeira posição da fila;
+    - Descrição : Tira a pessoa na primeira posição da fila;
     - Metódo HTTP : `GET`
     - Body : `{}`
 
 
 - `/filterLine`
-    - Lista os usuários filtrados a partir de um parâmetro;
+    - Descrição : Lista os usuários filtrados a partir de um parâmetro;
     - Metódo HTTP : `POST`
     - Body : 
         ```json
@@ -49,7 +49,7 @@
         ```
 
 - `/findPosition`
-    - Retorna a posição de um usuário a partir de seu email;
+    - Descrição : Retorna a posição de um usuário a partir de seu email;
     - Metódo HTTP : `POST`
     - Body : 
         ```json
@@ -62,10 +62,12 @@
 ### Endpoints adicionais 
 
 - `/showUsers`
+  - Descrição : Lista os usuários cadastrados;
   - Metódo HTTP : `GET`
   - Body : `{}`
 
 - `/docs`
+  - Descrição : Lista a descrição dos endpoints ;
   - Metódo HTTP : `GET`
   - Body : `{}`
 
