@@ -3,7 +3,7 @@
 - Desenvolvida em TypeScript, a API dispõe de 8 endpoints, cujas requisições são exemplificadas a seguir;
 
 
-# Endpoints obrigatórios
+## Endpoints obrigatórios
 
 - Exemplo de requisição de criação de usuário;
     - /createUser
@@ -30,7 +30,7 @@
     - POST
     - { "email": "matheus.carvalho@outlook.com" }
     
-# Endpoints adicionais 
+## Endpoints adicionais 
 - Exemplo de requisição para mostrar usuários cadastrados;
   - /showUsers
   - GET
