@@ -54,7 +54,7 @@
     - Body : 
         ```json
         {
-            "email": "matheus.carvalho@outlook.com"
+            "email": "john@doe.com"
         }
         ```
     
