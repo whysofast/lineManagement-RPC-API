@@ -1,6 +1,6 @@
 # Gerenciamento de fila - RPC API
 - Esta API foi desenvolvida como parte do processo seletivo de estágio backend da Cubos.
-- Desenvolvida em TypeScript, a API dispõe de 8 endpoints, cujas requisições são exemplificadas a seguir;
+- Desenvolvida em TypeScript no [VSCode](https://code.visualstudio.com/), a API dispõe de 8 endpoints, cujas requisições são exemplificadas a seguir;
 
 ## Scripts disponíveis
 
