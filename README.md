@@ -9,7 +9,6 @@ Dentro do diretório do projeto:
 ### `npm install`
 Instala dependências necessárias:
 ```json
-{
     "devDependencies": {
         "@types/express": "^4.17.8",
         "@types/faker": "^5.1.2",
@@ -24,7 +23,6 @@ Instala dependências necessárias:
         "express": "^4.17.1",
         "lodash": "^4.17.20"
     }
-}
 ```
 
 ### `npm run build`
